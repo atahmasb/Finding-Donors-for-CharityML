@@ -20,6 +20,10 @@ You will also need to have software installed to run and execute an [iPython Not
 
 The main file that contains the CRISP-DM process for analysing Census data in the US from 1994. This file includes all the code for data cleaning, visualization, model training, model tuning, and prediction of the likelihood of donations.
 
+**visuals.py**
+
+Visualization module that contains all the code for visualizations in the notebook.
+
 # Data
 
 The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
